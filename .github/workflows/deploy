@@ -1,0 +1,99 @@
+name: 공모전 크롤러 & 배포
+
+on:
+  schedule:
+    - cron: "0 23 * * *"  # 매일 오전 8시 KST (UTC 23:00)
+  workflow_dispatch:       # 수동 실행 가능
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Python 3.11 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Chrome 설치
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: stable
+
+      - name: ChromeDriver 설치
+        uses: nanasess/setup-chromedriver@v2
+
+      - name: Python 패키지 설치
+        run: pip install -r crawler/requirements.txt
+
+      - name: 크롤러 실행
+        run: python -m crawler.main
+        env:
+          PYTHONUNBUFFERED: "1"
+
+      - name: Discord 알림 전송
+        run: python -m crawler.notify
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+
+      - name: 크롤링 데이터 커밋
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "chore: 공모전 데이터 업데이트 [$(date -u +%Y-%m-%dT%H:%M:%SZ)]"
+          git pull --rebase -X theirs origin main || {
+            git checkout --theirs data/
+            git add data/
+            git rebase --continue
+          }
+          git push
+
+  build-and-deploy:
+    needs: crawl
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: 최신 데이터 pull
+        run: git pull origin main
+
+      - name: 정적 사이트 빌드
+        run: |
+          mkdir -p out
+          cp data/contests.json out/contests.json
+          cp index.html out/index.html
+          cp -r assets out/assets 2>/dev/null || true
+          touch out/.nojekyll
+
+      - name: GitHub Pages 설정
+        uses: actions/configure-pages@v5
+
+      - name: 아티팩트 업로드
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./out
+
+      - name: GitHub Pages 배포
+        id: deployment
+        uses: actions/deploy-pages@v4
