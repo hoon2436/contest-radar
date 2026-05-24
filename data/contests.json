@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-23T23:51:45.467001",
-  "totalCount": 36,
+  "lastUpdated": "2026-05-24T23:54:20.941430",
+  "totalCount": 37,
   "contests": [
     {
       "id": "dacon-236664",
@@ -20,7 +20,7 @@
         "정형",
         "F1 Score"
       ],
-      "scrapedAt": "2026-05-23T23:51:45.463882",
+      "scrapedAt": "2026-05-24T23:54:20.938177",
       "status": "completed"
     },
     {
@@ -42,7 +42,7 @@
         "LLM",
         "코드제출"
       ],
-      "scrapedAt": "2026-05-23T23:51:45.463828",
+      "scrapedAt": "2026-05-24T23:54:20.938126",
       "status": "completed"
     },
     {
@@ -64,7 +64,7 @@
         "Vision AI",
         "시각 기반 물리 이해"
       ],
-      "scrapedAt": "2026-05-23T23:51:45.463814",
+      "scrapedAt": "2026-05-24T23:54:20.938112",
       "status": "completed"
     },
     {
@@ -86,7 +86,7 @@
         "LLM",
         "코드제출"
       ],
-      "scrapedAt": "2026-05-23T23:51:45.463794",
+      "scrapedAt": "2026-05-24T23:54:20.938096",
       "status": "completed"
     },
     {
@@ -108,7 +108,7 @@
         "스마트물류",
         "MAE"
       ],
-      "scrapedAt": "2026-05-23T23:51:45.463774",
+      "scrapedAt": "2026-05-24T23:54:20.938073",
       "status": "completed"
     },
     {
@@ -127,7 +127,7 @@
         "AI",
         "인공지능"
       ],
-      "scrapedAt": "2026-05-23T23:50:49.692252",
+      "scrapedAt": "2026-05-24T23:53:08.891261",
       "status": "completed"
     },
     {
@@ -145,7 +145,7 @@
       "tags": [
         "AI"
       ],
-      "scrapedAt": "2026-05-23T23:50:49.695485",
+      "scrapedAt": "2026-05-24T23:53:08.894388",
       "status": "completed"
     },
     {
@@ -164,7 +164,7 @@
         "AI",
         "SW"
       ],
-      "scrapedAt": "2026-05-23T23:50:49.695749",
+      "scrapedAt": "2026-05-24T23:53:08.894646",
       "status": "completed"
     },
     {
@@ -172,8 +172,8 @@
       "title": "[경상북도] 2026 경상북도 한복창작해커톤대회",
       "description": "",
       "organizer": "",
-      "deadline": "2026-05-23",
-      "startDate": "2026-05-23",
+      "deadline": "2026-05-24",
+      "startDate": "2026-05-24",
       "prize": "",
       "url": "https://linkareer.com/activity/323784",
       "thumbnailUrl": "",
@@ -182,7 +182,7 @@
       "tags": [
         "해커톤"
       ],
-      "scrapedAt": "2026-05-23T23:51:06.495877",
+      "scrapedAt": "2026-05-24T23:53:41.417017",
       "status": "active"
     },
     {
@@ -198,7 +198,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-05-23T23:50:49.691848",
+      "scrapedAt": "2026-05-24T23:53:08.890868",
       "status": "active"
     },
     {
@@ -214,7 +214,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-05-23T23:50:49.695223",
+      "scrapedAt": "2026-05-24T23:53:08.894113",
       "status": "active"
     },
     {
@@ -230,7 +230,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-05-23T23:50:49.694350",
+      "scrapedAt": "2026-05-24T23:53:08.893295",
       "status": "active"
     },
     {
@@ -252,7 +252,23 @@
         "회귀",
         "LiDAR"
       ],
-      "scrapedAt": "2026-05-23T23:51:45.463762",
+      "scrapedAt": "2026-05-24T23:54:20.938057",
+      "status": "active"
+    },
+    {
+      "id": "wevity-107645",
+      "title": "[한국문화정보원] 문화PD 24기 모집",
+      "description": "",
+      "organizer": "한국문화정보원",
+      "deadline": "2026-06-07",
+      "startDate": "2026-05-24",
+      "prize": "",
+      "url": "https://www.wevity.com/?c=find&s=1&mode=ing&gub=1&cidx=20&gbn=view&gp=1&ix=107645",
+      "thumbnailUrl": "",
+      "category": "other",
+      "source": "wevity",
+      "tags": [],
+      "scrapedAt": "2026-05-24T23:53:47.512137",
       "status": "active"
     },
     {
@@ -270,7 +286,7 @@
       "tags": [
         "AI"
       ],
-      "scrapedAt": "2026-05-23T23:50:49.693098",
+      "scrapedAt": "2026-05-24T23:53:08.892118",
       "status": "active"
     },
     {
@@ -288,7 +304,7 @@
       "tags": [
         "AI"
       ],
-      "scrapedAt": "2026-05-23T23:50:53.699554",
+      "scrapedAt": "2026-05-24T23:53:12.946506",
       "status": "active"
     },
     {
@@ -307,7 +323,7 @@
         "AI",
         "IT"
       ],
-      "scrapedAt": "2026-05-23T23:50:49.692515",
+      "scrapedAt": "2026-05-24T23:53:08.891550",
       "status": "active"
     },
     {
@@ -323,7 +339,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-05-23T23:50:49.694939",
+      "scrapedAt": "2026-05-24T23:53:08.893828",
       "status": "active"
     },
     {
@@ -332,7 +348,7 @@
       "description": "",
       "organizer": "경상남도",
       "deadline": "2026-06-15",
-      "startDate": "2026-05-23",
+      "startDate": "2026-05-24",
       "prize": "",
       "url": "https://www.wevity.com/?c=find&s=1&mode=ing&gub=1&cidx=20&gbn=view&gp=1&ix=106718",
       "thumbnailUrl": "",
@@ -341,7 +357,7 @@
       "tags": [
         "데이터"
       ],
-      "scrapedAt": "2026-05-23T23:51:12.566479",
+      "scrapedAt": "2026-05-24T23:53:47.781725",
       "status": "active"
     },
     {
@@ -359,7 +375,7 @@
       "tags": [
         "데이터"
       ],
-      "scrapedAt": "2026-05-23T23:50:49.692833",
+      "scrapedAt": "2026-05-24T23:53:08.891848",
       "status": "active"
     },
     {
@@ -368,7 +384,7 @@
       "description": "",
       "organizer": "부산광역시",
       "deadline": "2026-06-25",
-      "startDate": "2026-05-23",
+      "startDate": "2026-05-24",
       "prize": "",
       "url": "https://www.wevity.com/?c=find&s=1&mode=ing&gub=1&cidx=20&gbn=view&gp=1&ix=107424",
       "thumbnailUrl": "",
@@ -378,7 +394,7 @@
         "AI",
         "데이터"
       ],
-      "scrapedAt": "2026-05-23T23:51:12.361019",
+      "scrapedAt": "2026-05-24T23:53:47.595568",
       "status": "active"
     },
     {
@@ -387,7 +403,7 @@
       "description": "",
       "organizer": "문화체육관광부",
       "deadline": "2026-06-26",
-      "startDate": "2026-05-23",
+      "startDate": "2026-05-24",
       "prize": "",
       "url": "https://www.wevity.com/?c=find&s=1&mode=ing&gub=1&cidx=20&gbn=view&gp=1&ix=106965",
       "thumbnailUrl": "",
@@ -397,7 +413,7 @@
         "인공지능",
         "데이터"
       ],
-      "scrapedAt": "2026-05-23T23:51:12.406169",
+      "scrapedAt": "2026-05-24T23:53:47.634558",
       "status": "active"
     },
     {
@@ -406,7 +422,7 @@
       "description": "",
       "organizer": "산림청 국립산림과학원",
       "deadline": "2026-06-26",
-      "startDate": "2026-05-23",
+      "startDate": "2026-05-24",
       "prize": "",
       "url": "https://www.wevity.com/?c=find&s=1&mode=ing&gub=1&cidx=20&gbn=view&gp=1&ix=106202",
       "thumbnailUrl": "",
@@ -415,7 +431,7 @@
       "tags": [
         "AI"
       ],
-      "scrapedAt": "2026-05-23T23:51:12.652394",
+      "scrapedAt": "2026-05-24T23:53:47.857207",
       "status": "active"
     },
     {
@@ -437,7 +453,7 @@
         "논문",
         "분류"
       ],
-      "scrapedAt": "2026-05-23T23:51:45.463736",
+      "scrapedAt": "2026-05-24T23:54:20.938026",
       "status": "active"
     },
     {
@@ -453,7 +469,25 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-05-23T23:50:49.694628",
+      "scrapedAt": "2026-05-24T23:53:08.893574",
+      "status": "active"
+    },
+    {
+      "id": "wevity-107650",
+      "title": "서울 디자인 AI 영상 공모전",
+      "description": "",
+      "organizer": "서울특별시",
+      "deadline": "2026-06-30",
+      "startDate": "2026-05-24",
+      "prize": "",
+      "url": "https://www.wevity.com/?c=find&s=1&mode=ing&gub=1&cidx=20&gbn=view&gp=1&ix=107650",
+      "thumbnailUrl": "",
+      "category": "other",
+      "source": "wevity",
+      "tags": [
+        "AI"
+      ],
+      "scrapedAt": "2026-05-24T23:53:47.471376",
       "status": "active"
     },
     {
@@ -462,14 +496,14 @@
       "description": "",
       "organizer": "엔티렉스",
       "deadline": "2026-06-30",
-      "startDate": "2026-05-23",
+      "startDate": "2026-05-24",
       "prize": "",
       "url": "https://www.wevity.com/?c=find&s=1&mode=ing&gub=1&cidx=20&gbn=view&gp=1&ix=106229",
       "thumbnailUrl": "",
       "category": "other",
       "source": "wevity",
       "tags": [],
-      "scrapedAt": "2026-05-23T23:51:12.605257",
+      "scrapedAt": "2026-05-24T23:53:47.819163",
       "status": "active"
     },
     {
@@ -478,7 +512,7 @@
       "description": "",
       "organizer": "국립광주과학관",
       "deadline": "2026-06-30",
-      "startDate": "2026-05-23",
+      "startDate": "2026-05-24",
       "prize": "",
       "url": "https://www.wevity.com/?c=find&s=1&mode=ing&gub=1&cidx=20&gbn=view&gp=1&ix=105859",
       "thumbnailUrl": "",
@@ -488,7 +522,7 @@
         "AI",
         "인공지능"
       ],
-      "scrapedAt": "2026-05-23T23:51:12.691619",
+      "scrapedAt": "2026-05-24T23:53:47.893901",
       "status": "active"
     },
     {
@@ -497,7 +531,7 @@
       "description": "",
       "organizer": "병무청·방위사업청·질병관리청",
       "deadline": "2026-07-07",
-      "startDate": "2026-05-23",
+      "startDate": "2026-05-24",
       "prize": "",
       "url": "https://www.wevity.com/?c=find&s=1&mode=ing&gub=1&cidx=20&gbn=view&gp=1&ix=107489",
       "thumbnailUrl": "",
@@ -507,7 +541,7 @@
         "AI",
         "데이터"
       ],
-      "scrapedAt": "2026-05-23T23:51:12.447724",
+      "scrapedAt": "2026-05-24T23:53:47.671791",
       "status": "active"
     },
     {
@@ -527,7 +561,7 @@
         "해커톤",
         "스타트업"
       ],
-      "scrapedAt": "2026-05-23T23:50:49.693716",
+      "scrapedAt": "2026-05-24T23:53:08.892716",
       "status": "active"
     },
     {
@@ -536,7 +570,7 @@
       "description": "",
       "organizer": "외교부",
       "deadline": "2026-07-13",
-      "startDate": "2026-05-23",
+      "startDate": "2026-05-24",
       "prize": "",
       "url": "https://www.wevity.com/?c=find&s=1&mode=ing&gub=1&cidx=20&gbn=view&gp=1&ix=107410",
       "thumbnailUrl": "",
@@ -546,7 +580,7 @@
         "AI",
         "데이터"
       ],
-      "scrapedAt": "2026-05-23T23:51:12.487107",
+      "scrapedAt": "2026-05-24T23:53:47.709012",
       "status": "active"
     },
     {
@@ -555,7 +589,7 @@
       "description": "",
       "organizer": "KAIST",
       "deadline": "2026-07-17",
-      "startDate": "2026-05-23",
+      "startDate": "2026-05-24",
       "prize": "",
       "url": "https://www.wevity.com/?c=find&s=1&mode=ing&gub=1&cidx=20&gbn=view&gp=1&ix=107369",
       "thumbnailUrl": "",
@@ -564,7 +598,7 @@
       "tags": [
         "AI"
       ],
-      "scrapedAt": "2026-05-23T23:51:12.528005",
+      "scrapedAt": "2026-05-24T23:53:47.745593",
       "status": "active"
     },
     {
@@ -582,7 +616,7 @@
       "tags": [
         "웹"
       ],
-      "scrapedAt": "2026-05-23T23:50:53.699600",
+      "scrapedAt": "2026-05-24T23:53:12.946543",
       "status": "active"
     },
     {
@@ -598,7 +632,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-05-23T23:50:49.694065",
+      "scrapedAt": "2026-05-24T23:53:08.893013",
       "status": "active"
     },
     {
@@ -616,7 +650,7 @@
       "tags": [
         "AI"
       ],
-      "scrapedAt": "2026-05-23T23:50:53.699424",
+      "scrapedAt": "2026-05-24T23:53:12.946296",
       "status": "active"
     },
     {
@@ -625,7 +659,7 @@
       "description": "",
       "organizer": "국립아시아문화전당",
       "deadline": "2026-07-31",
-      "startDate": "2026-05-23",
+      "startDate": "2026-05-24",
       "prize": "",
       "url": "https://www.wevity.com/?c=find&s=1&mode=ing&gub=1&cidx=20&gbn=view&gp=1&ix=107427",
       "thumbnailUrl": "",
@@ -634,7 +668,7 @@
       "tags": [
         "AI"
       ],
-      "scrapedAt": "2026-05-23T23:51:12.311430",
+      "scrapedAt": "2026-05-24T23:53:47.553691",
       "status": "active"
     },
     {
@@ -650,23 +684,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-05-23T23:50:49.693428",
-      "status": "active"
-    },
-    {
-      "id": "wevity-107645",
-      "title": "[한국문화정보원] 문화PD 24기 모집",
-      "description": "",
-      "organizer": "한국문화정보원",
-      "deadline": "2027-05-09",
-      "startDate": "2026-05-23",
-      "prize": "",
-      "url": "https://www.wevity.com/?c=find&s=1&mode=ing&gub=1&cidx=20&gbn=view&gp=1&ix=107645",
-      "thumbnailUrl": "",
-      "category": "other",
-      "source": "wevity",
-      "tags": [],
-      "scrapedAt": "2026-05-23T23:51:12.267537",
+      "scrapedAt": "2026-05-24T23:53:08.892460",
       "status": "active"
     }
   ]
