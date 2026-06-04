@@ -1,28 +1,28 @@
 {
-  "lastCrawl": "2026-06-03T00:23:56.577310",
+  "lastCrawl": "2026-06-04T00:25:35.731692",
   "sources": {
     "contestkorea": {
-      "lastSuccess": "2026-06-03T00:23:58.993743",
+      "lastSuccess": "2026-06-04T00:25:37.546805",
       "count": 13,
       "errors": []
     },
     "thinkcontest": {
-      "lastSuccess": "2026-06-03T00:24:03.576262",
-      "count": 2,
+      "lastSuccess": "2026-06-04T00:25:41.765205",
+      "count": 1,
       "errors": []
     },
     "linkareer": {
-      "lastSuccess": "2026-06-03T00:24:29.007835",
-      "count": 4,
+      "lastSuccess": "2026-06-04T00:25:56.366689",
+      "count": 3,
       "errors": []
     },
     "wevity": {
-      "lastSuccess": "2026-06-03T00:25:07.014346",
+      "lastSuccess": "2026-06-04T00:26:33.160248",
       "count": 15,
       "errors": []
     },
     "dacon": {
-      "lastSuccess": "2026-06-03T00:25:08.775996",
+      "lastSuccess": "2026-06-04T00:26:35.244096",
       "count": 15,
       "errors": []
     }
